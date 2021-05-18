@@ -1,0 +1,6 @@
+print("Calculate how long you have left till you are 90 years of age. \n")
+age = input("What is your current age in years? \n")
+num_years = (90-int(age))
+num_months = (num_years*12)
+num_days = (num_years*365)
+print(f"Number of years left: {num_years}, Number of months left: {num_months}, Number of days left: {num_days}")
