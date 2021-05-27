@@ -1,6 +1,5 @@
 import random
-from hangman_words import word_list
-from hangman_art import logo, stages
+from day7-hangman-game-files import word_list, logo, stages
 
 print("Welcome to Hangman Game! \n")
 print(logo + "\n")
